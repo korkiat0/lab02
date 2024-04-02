@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 200px;
+    height: 260px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .close,
+.card .badge {
+    position: absolute;
+    font-size: 1.3rem;
+}
+
+.card .close {
+    top: -4px;
+    left: 4px;
+    color: #aaa;
+    text-shadow: 2px 2px 4px silver;
+}
+
+.card .badge {
+    top: -8px;
+    right: -10px;
+    background-color: red;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.card img {
+    border-bottom: 1px solid #ddd;
+}
+
+.card h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -4px;
+}

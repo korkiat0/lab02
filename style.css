@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.count {
+    display: flex;
+    color: #fff;
+    background-color: red;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: -10px;
+    left: 180px;
+    opacity: 1;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.child {
+    position: absolute;
+    align-items: center;
+    border: 1px solid black;
+    bottom: 50%;
+}
+
+.x {
+    padding: 5px;
+}
+
+.name {
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid black;
+}
